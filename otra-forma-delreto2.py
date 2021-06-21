@@ -10,6 +10,14 @@ ganadores_carrera = "IHZOWFEI"
 # fav_carolina = input("Ingrese las favoritas de carolina: ")
 # ganadores_carrera = input("Ingrese los ganadores")
 
+def winner(puntos_a,puntos_c):
+    if puntos_a>puntos_c: 
+        return "A" 
+    elif puntos_a==puntos_c: 
+        return "E" 
+    else: 
+        return "C" 
+
 La función para determinar al ganador se quedará igual. Ahora en vez de sumar 1 al valor del diccionario lo haremos al contador del participante, lo mismo para obtener el valor.
 
 #iniciamos los puntos con 0
