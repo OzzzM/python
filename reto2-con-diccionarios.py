@@ -6,7 +6,8 @@ def winner(puntos_a,puntos_c):
     else: 
         return "C" 
 
-participantes = {"Alejandro":{"fav":input("Ingrese las escuderias favoritas de alejandro: \n"), "puntos":0}, "Carolina":{"fav":input("Ingrese las escuderias favoritas de Carolina: \n"),"puntos":0}}
+participantes = {"Alejandro":{"fav":input("Ingrese las escuderias favoritas de alejandro: \n"), "puntos":0}, 
+"Carolina":{"fav":input("Ingrese las escuderias favoritas de Carolina: \n"),"puntos":0}}
 
 ganadores_carrera = input("Ingrese los ganadores de la Temporada: ")
 

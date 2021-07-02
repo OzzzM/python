@@ -1,4 +1,4 @@
-En caso lo quieras hacer con contadores, tendríamos que declara un contador para cada participante, para este caso hare el código sin usar un diccionario
+#En caso lo quieras hacer con contadores, tendríamos que declara un contador para cada participante, para este caso hare el código sin usar un diccionario
 
 #delcaramos las variables
 fav_alejandro = "RAIFZ"
@@ -18,7 +18,7 @@ def winner(puntos_a,puntos_c):
     else: 
         return "C" 
 
-La función para determinar al ganador se quedará igual. Ahora en vez de sumar 1 al valor del diccionario lo haremos al contador del participante, lo mismo para obtener el valor.
+#La función para determinar al ganador se quedará igual. Ahora en vez de sumar 1 al valor del diccionario lo haremos al contador del participante, lo mismo para obtener el valor.
 
 #iniciamos los puntos con 0
 points_alejandro = 0
@@ -46,4 +46,4 @@ for g in ganadores_carrera:
         #verifiacmos al ganador
         print(winner(points_alejandro,points_carolina),end="")
 
-utilicé contadores tal y como me pediste en los comentarios, si no deseas utilizar diccionarios y prefieres hacerlo de esta forma no hay problema, solo que esto también se puede resumir usando otra estructura de dato como listas [] o tuplas () o una mezcla de ambos, una lista de tuplas [(participante1,point),(participante2,points)]. Te dejo eso para que juegues y aprendas más :D
+#utilicé contadores tal y como me pediste en los comentarios, si no deseas utilizar diccionarios y prefieres hacerlo de esta forma no hay problema, solo que esto también se puede resumir usando otra estructura de dato como listas [] o tuplas () o una mezcla de ambos, una lista de tuplas [(participante1,point),(participante2,points)]. Te dejo eso para que juegues y aprendas más :D
