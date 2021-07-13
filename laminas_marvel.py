@@ -26,9 +26,23 @@ def laminas_faltantes(laminas_persona_1, laminas_persona_2):
   return resultado2
 
 def cantidad_laminas_cambiables(laminas_persona_1, laminas_persona_2):
-  resultado3 = 0
+    
+  
+  contador1 = 0
   
   for laminas in laminas_persona_1:
     if laminas not in laminas_persona_2:
-      resultado3 = resultado3 + laminas
-  return resultado3
+      contador1 = contador1 + 1
+  
+  contador2 = 0
+  for laminass in laminas_persona_2:
+    if laminass not in laminas_persona_1:
+      contador2 = contador2 + 1
+      
+      
+  if  contador1 < contador2:
+        resultado = contador1
+  else:
+        resultado = contador2
+            
+  return resultado
